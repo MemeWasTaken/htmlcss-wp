@@ -6,6 +6,8 @@
 
 html{
     font-size: 1em;
+    width: 1200px;
+    font-family: Montserrat;
 }
 
 .clearfix::after{
@@ -16,21 +18,43 @@ html{
 
 /* Header Section */
 header{
-    background-color: #E579E6;
+    /* background-color: #E579E6; */
+    border: 1px solid #E579E6;
     width: 80%;
-    height: 3em;
+    height: 5em;
     margin: auto;
     margin-top: 0.46em;
+}
+
+header img{
+    display: block;
+    width: 10%;
+}
+
+header nav{
+    padding-top: 1em;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #929292;
+    font-size: 0.7em;
+    font-weight: 300;
+
 }
 /* /Header Section */
 
 /* Jumbotron Box */
 .jumbotron{
-    background-color: #E1D67A;
+    /* background-color: #E1D67A; */
+    border: 1px solid #E1D67A;
     width: 80%;
     height: 10em;
     margin: auto;
     margin-top: 0.6em;
+    border-radius: 0.5em;
+
 }
 /* /Jumbotron Box */
 
@@ -43,7 +67,7 @@ main{
     margin-top: 0.6em;
 }
 
-nav{
+main nav{
     background-color: #ABCFE7;
     height: 1.5em;
     width: 100%;
