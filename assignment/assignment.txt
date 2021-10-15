@@ -1,0 +1,9 @@
+Esercizio di oggi: A Wordpress page
+Repository: htmlcss-wp
+
+Copiamo il lavoro di ieri in una nuova repo, attenzione, non duplicate l’intera cartella, altrimenti copierete anche le impostazioni di git!
+Nel repo nuovo incolliamo solo
+index.html, css/style.css e cartella img/ con le immagini.
+Descrizione
+Passiamo a rifinire il lavoro inserendo i dettagli.
+Partiamo dall’alto, solo se tutto funziona passiamo alla sezione successiva.

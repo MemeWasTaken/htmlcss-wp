@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1em;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Header Section */
+header{
+    background-color: #E579E6;
+    width: 80%;
+    height: 3em;
+    margin: auto;
+    margin-top: 0.46em;
+}
+/* /Header Section */
+
+/* Jumbotron Box */
+.jumbotron{
+    background-color: #E1D67A;
+    width: 80%;
+    height: 10em;
+    margin: auto;
+    margin-top: 0.6em;
+}
+/* /Jumbotron Box */
+
+/* Main Section */
+main{
+    background-color: #0086FF;
+    width: 80%;
+    height: 15em;
+    margin: auto;
+    margin-top: 0.6em;
+}
+
+nav{
+    background-color: #ABCFE7;
+    height: 1.5em;
+    width: 100%;
+    margin-bottom: 0.6em;
+}
+
+.column{
+    background-color: #ABCFE7;
+    float: left;
+    width: 25%;
+    height: calc(15em - 2.7em);
+    margin-bottom: 0.6em;
+}
+
+.l-column{
+    width: 25%;
+    margin-right: 0.6em;
+}
+   
+.c-column{
+    width: calc(50% - 1.2em);
+    margin-right: 0.6em;
+}
+
+/* /Main Section */
+
+/* Footer Section */
+footer{
+    background-color: #8801FE;
+    width: 80%;
+    height: 1.3em;
+    margin: auto;
+    margin-top: 0.4em;
+}
+/* /Footer Section */
