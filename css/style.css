@@ -1,3 +1,4 @@
+/* General Condition */
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +16,14 @@ html{
     display: table;
     clear: both;
 }
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5em;
+}
+/* /General Condition */
 
 /* Header Section */
 .top-header{
@@ -55,14 +64,8 @@ nav a{
     height: 31.25em;
     margin: auto;
     margin-top: 0.6em;
-    border-radius: 0.5em;
 }
 
-.overlay{
-    background-color: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 31.25em;
-}
 
 div h2{
     color: white;
@@ -86,11 +89,12 @@ main{
     /* background-color: #0086FF; */
     border: 1px solid #0086FF;
     width: 80%;
-    height: 17.5em;
+    height: 33em;
     margin: auto;
     margin-top: 0.6em;
 }
 
+/* Bottom Header */
 .bottom-header{
     /* background-color: #ABCFE7; */
     border: 1px solid #ABCFE7;
@@ -106,12 +110,15 @@ header h1{
 header p{
     color: #929292;
 }
+/* /Bottom Header */
 
+/* Column Section */
 .column{
-    background-color: #ABCFE7;
+    /* background-color: #ABCFE7; */
+    border: 1px solid #ABCFE7;
     float: left;
     width: 25%;
-    height: calc(15em - 2.7em);
+    height: calc(30em - 2.7em);
     margin-bottom: 0.6em;
 }
 
@@ -119,11 +126,34 @@ header p{
     width: 25%;
     margin-right: 0.6em;
 }
-   
+
+.img-col-1{
+    background-image: url(../img/img-col-1.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    height: 204px;
+    border-radius: 0.5em;
+}
+
+.txt-col-1{
+margin-top: 1em;
+}
+
+.txt-col-1 :first-child{
+    font-weight: 500;
+}
+
+.txt-col-1 :last-child{
+    color: #929292;
+    padding-top: 0.5em;
+}
+
 .c-column{
     width: calc(50% - 1.2em);
     margin-right: 0.6em;
 }
+
+/* /Column Section */
 
 /* /Main Section */
 
@@ -133,6 +163,6 @@ footer{
     width: 80%;
     height: 1.3em;
     margin: auto;
-    margin-top: 0.4em;
+    margin-top: 0.5em;
 }
 /* /Footer Section */
