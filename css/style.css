@@ -17,7 +17,7 @@ html{
 }
 
 /* Header Section */
-header{
+.top-header{
     /* background-color: #E579E6; */
     border: 1px solid #E579E6;
     width: 80%;
@@ -26,12 +26,12 @@ header{
     margin-top: 0.46em;
 }
 
-header img{
+.top-header img{
     display: block;
     width: 10%;
 }
 
-header nav{
+.top-header nav{
     padding-top: 1em;
 }
 
@@ -83,18 +83,28 @@ div h2{
 
 /* Main Section */
 main{
-    background-color: #0086FF;
+    /* background-color: #0086FF; */
+    border: 1px solid #0086FF;
     width: 80%;
-    height: 15em;
+    height: 17.5em;
     margin: auto;
     margin-top: 0.6em;
 }
 
-main nav{
-    background-color: #ABCFE7;
-    height: 1.5em;
+.bottom-header{
+    /* background-color: #ABCFE7; */
+    border: 1px solid #ABCFE7;
+    height: 4em;
     width: 100%;
     margin-bottom: 0.6em;
+}
+
+header h1{
+    font-weight:700;
+}
+
+header p{
+    color: #929292;
 }
 
 .column{
