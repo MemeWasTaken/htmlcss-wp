@@ -27,8 +27,8 @@ html{
 
 /* Header Section */
 .top-header{
-    /* background-color: #E579E6; */
-    border: 1px solid #E579E6;
+    /* background-color: #E579E6; DEBUG*/
+    /* border: 1px solid #E579E6; DEBUG*/
     width: 80%;
     height: 5em;
     margin: auto;
@@ -48,7 +48,7 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     color: #929292;
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-weight: 300;
 
 }
@@ -56,8 +56,8 @@ nav a{
 
 /* Jumbotron Box */
 .jumbotron{
-    /* background-color: #E1D67A; */
-    border: 1px solid #E1D67A;
+    /* background-color: #E1D67A; DEBUG*/
+    /* border: 1px solid #E1D67A; DEBUG*/
     background-image: url(../img/banner.jpg);
     background-position: center;
     width: 80%;
@@ -86,8 +86,8 @@ div h2{
 
 /* Main Section */
 main{
-    /* background-color: #0086FF; */
-    border: 1px solid #0086FF;
+    /* background-color: #0086FF; DEBUG*/
+    /* border: 1px solid #0086FF; DEBUG*/
     width: 80%;
     height: 33em;
     margin: auto;
@@ -96,8 +96,8 @@ main{
 
 /* Bottom Header */
 .bottom-header{
-    /* background-color: #ABCFE7; */
-    border: 1px solid #ABCFE7;
+    /* background-color: #ABCFE7; DEBUG*/
+    /* border: 1px solid #ABCFE7; DEBUG*/
     height: 4em;
     width: 100%;
     margin-bottom: 0.6em;
@@ -113,56 +113,79 @@ header p{
 /* /Bottom Header */
 
 /* Column Section */
+/* General Column Condition */
 .column{
-    /* background-color: #ABCFE7; */
-    border: 1px solid #ABCFE7;
+    /* background-color: #ABCFE7; DEBUG*/
+    /* border: 1px solid #ABCFE7; DEBUG*/
     float: left;
     width: 25%;
     height: calc(30em - 2.7em);
     margin-bottom: 0.6em;
 }
 
-.l-column{
-    width: 25%;
-    margin-right: 0.6em;
-}
-
-.img-col-1{
-    background-image: url(../img/img-col-1.jpg);
+.imgs-cols{
     background-size: 100%;
     background-position: 50% 50%;
     height: 204px;
     border-radius: 0.5em;
 }
 
-.txt-col-1{
+.txt-col-1,
+.txt-col-2,
+.txt-col-3{
 margin-top: 1em;
 }
 
-.txt-col-1 :first-child{
+.txt-col-1,
+.txt-col-2,
+.txt-col-3 :first-child{
     font-weight: 500;
 }
 
-.txt-col-1 :last-child{
+.txt-col-1,
+.txt-col-2,
+.txt-col-3 :last-child{
     color: #929292;
     padding-top: 0.5em;
 }
+/* /General Column Condition */
+
+.l-column{
+    width: 25%;
+    margin-right: 0.6em;
+}
+
+.img-col-1{background-image: url(../img/img-col-1.jpg);}
 
 .c-column{
     width: calc(50% - 1.2em);
     margin-right: 0.6em;
 }
 
-/* /Column Section */
+.img-col-2{ background-image: url(../img/img-col-2.jpg);}
 
+.img-col-3{
+    background-image: url(../img/img-col-3.jpg);
+    background-size: 145%;
+}
+/* /Column Section */
 /* /Main Section */
 
 /* Footer Section */
 footer{
-    background-color: #8801FE;
+    /* background-color: #8801FE; DEBUG*/
+    /* border: 1px solid #8801FE; DEBUG*/
     width: 80%;
-    height: 1.3em;
+    height: 1.5em;
     margin: auto;
     margin-top: 0.5em;
+    text-align: center;
+}
+
+#heart{
+    display: inline-block;
+    color: red;
+    font-size: 1.2em;
+    
 }
 /* /Footer Section */
