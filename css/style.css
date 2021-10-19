@@ -1,23 +1,23 @@
 /* General Condition */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     font-size: 1em;
     width: 1200px;
     font-family: Montserrat;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.overlay{
+.overlay {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
@@ -26,25 +26,30 @@ html{
 /* /General Condition */
 
 /* Header Section */
-.top-header{
+.top-header {
     /* background-color: #E579E6; DEBUG*/
     /* border: 1px solid #E579E6; DEBUG*/
     width: 80%;
-    height: 5em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.46em;
 }
 
-.top-header img{
+.top-header img {
     display: block;
     width: 10%;
 }
 
-.top-header nav{
+.top-header nav {
     padding-top: 1em;
 }
 
-nav a{
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #929292;
@@ -55,19 +60,20 @@ nav a{
 /* /Header Section */
 
 /* Jumbotron Box */
-.jumbotron{
+.jumbotron {
     /* background-color: #E1D67A; DEBUG*/
     /* border: 1px solid #E1D67A; DEBUG*/
     background-image: url(../img/banner.jpg);
     background-position: center;
     width: 80%;
     height: 31.25em;
-    margin: auto;
-    margin-top: 0.6em;
+    margin: 0 auto;
+    margin-top: 1.4em;
+    border-radius: 0.5em;
 }
 
 
-div h2{
+div h2 {
     color: white;
     width: 510px;
     padding-left: 1.7em;
@@ -75,7 +81,7 @@ div h2{
     margin-top: 13em;
 }
 
-.p-jumbo{
+.p-jumbo {
     color: white;
     width: 510px;
     padding-left: 2.55em;
@@ -85,45 +91,45 @@ div h2{
 /* /Jumbotron Box */
 
 /* Main Section */
-main{
+main {
     /* background-color: #0086FF; DEBUG*/
     /* border: 1px solid #0086FF; DEBUG*/
     width: 80%;
-    height: 33em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.6em;
 }
 
 /* Bottom Header */
-.bottom-header{
+.bottom-header {
     /* background-color: #ABCFE7; DEBUG*/
     /* border: 1px solid #ABCFE7; DEBUG*/
-    height: 4em;
+    margin-top: 1em;
     width: 100%;
     margin-bottom: 0.6em;
 }
 
-header h1{
+header h1 {
     font-weight:700;
 }
 
-header p{
+header p {
     color: #929292;
 }
 /* /Bottom Header */
 
 /* Column Section */
 /* General Column Condition */
-.column{
+.column {
     /* background-color: #ABCFE7; DEBUG*/
     /* border: 1px solid #ABCFE7; DEBUG*/
+    margin-top: 0.7em;
     float: left;
     width: 25%;
     height: calc(30em - 2.7em);
     margin-bottom: 0.6em;
 }
 
-.imgs-cols{
+.imgs-cols {
     background-size: 100%;
     background-position: 50% 50%;
     height: 204px;
@@ -132,39 +138,39 @@ header p{
 
 .txt-col-1,
 .txt-col-2,
-.txt-col-3{
+.txt-col-3 {
 margin-top: 1em;
 }
 
 .txt-col-1,
 .txt-col-2,
-.txt-col-3 :first-child{
+.txt-col-3 :first-child {
     font-weight: 500;
 }
 
 .txt-col-1,
 .txt-col-2,
-.txt-col-3 :last-child{
+.txt-col-3 :last-child {
     color: #929292;
     padding-top: 0.5em;
 }
 /* /General Column Condition */
 
-.l-column{
+.l-column {
     width: 25%;
     margin-right: 0.6em;
 }
 
-.img-col-1{background-image: url(../img/img-col-1.jpg);}
+.img-col-1 {background-image: url(../img/img-col-1.jpg);}
 
-.c-column{
+.c-column {
     width: calc(50% - 1.2em);
     margin-right: 0.6em;
 }
 
-.img-col-2{ background-image: url(../img/img-col-2.jpg);}
+.img-col-2 { background-image: url(../img/img-col-2.jpg);}
 
-.img-col-3{
+.img-col-3 {
     background-image: url(../img/img-col-3.jpg);
     background-size: 145%;
 }
@@ -172,17 +178,16 @@ margin-top: 1em;
 /* /Main Section */
 
 /* Footer Section */
-footer{
+footer {
     /* background-color: #8801FE; DEBUG*/
     /* border: 1px solid #8801FE; DEBUG*/
     width: 80%;
-    height: 1.5em;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 0.5em;
     text-align: center;
 }
 
-#heart{
+#heart {
     display: inline-block;
     color: red;
     font-size: 1.2em;
